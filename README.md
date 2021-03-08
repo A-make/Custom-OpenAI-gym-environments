@@ -12,7 +12,7 @@ pip install -e gym_custom
 The `-e` option is for 'editable mode' which allows the code to be updated after the package has been installed.
 
 ### Requirements
-Tested and working with gym 0.16.0
+Tested and working with gym 0.18.0
 
 ## Usage
 By installing this package, the custom environments get registered (see `gym_custom/envs/__init__.py`) in gym and can be used by:

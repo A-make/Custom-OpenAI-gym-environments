@@ -9,12 +9,6 @@ register(
     max_episode_steps=500,
     reward_threshold=497.0,
 )
-register(
-    id='CartPoleSwingUp2-v0',
-    entry_point='gym_custom.envs.classic_control:CartPoleSwingUp2Env',
-    max_episode_steps=500,
-    reward_threshold=497.0,
-)
 
 # Box2d
 # ----------------------------------------
