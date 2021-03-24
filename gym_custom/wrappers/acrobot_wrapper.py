@@ -8,7 +8,7 @@ class AcrobotWrapper(gym.Wrapper):
              "balance",
              "swing-up balance"]
 
-    def __init__(self, env, task, lag=2, max_steps=500): #, max_episodes=400):
+    def __init__(self, env, task, max_steps=500): #, max_episodes=400):
         super().__init__(env)
         self.task = task
         self.n_steps = 0
